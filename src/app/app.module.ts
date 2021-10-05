@@ -38,7 +38,7 @@ const routes: Routes = [
     MatToolbarModule,
     MatFormFieldModule,
     MatSelectModule,
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' }),
     MatProgressBarModule,
     HttpClientModule,
     MatButtonModule
